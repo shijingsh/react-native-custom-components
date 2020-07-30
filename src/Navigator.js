@@ -402,7 +402,7 @@ var Navigator = createReactClass({
     SceneConfigs: NavigatorSceneConfigs,
   },
 
-  mixins: [TimerMixin, InteractionMixin, Subscribable.Mixin],
+  mixins: [TimerMixin, InteractionMixin],//, Subscribable.Mixin
 
   getDefaultProps: function() {
     return {
